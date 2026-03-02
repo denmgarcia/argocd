@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: 1.29.5-alpine-slim
+          image: nginx:1.29.5-alpine-slim
           ports:
             - containerPort: 80
           resources:
